@@ -20,7 +20,7 @@
     <!-- lg = large breakpoint, navbar-light = make text dark, headerBG = custom css BG color-->
         <div class="container">
             <a href="index.html" class="navbar-brand">
-                <img src="img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                <img src="img/pills.png" alt="Antibiotics Logo" class="d-inline-block align-text-top">
             </a>
             <!-- Hamburger Menu Button-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -47,48 +47,76 @@
     <!-- How to use the sensor -->
     <section class="procedure">
         <div class="container">
-            <br>
-            <div class="text-center">
-                <h1>Procedure</h1>
-                <h2>Using a numbered list, describe your procedure w/ pictures</h2>
-            </div>
-            <hr><br>
-
-            <table class="table table-hover table-borderless">
-                <tbody>
-                    <tr>
-                        <th scope="row"><h2>Step 1</h2></th>
-                        <td><p class="howTo">Start Python Flask server</p></td>
-                        <td class="text-center"><img src="img/pythonLogo.png" alt="Python Logo"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><h2>Step 2</h2></th>
-                        <td><p class="howTo">Power circuit on. SR-04/05 transmits data to Nano icon-white</p></td>
-                        <td class="text-center"><img src="img/rangeFinderTP.png" alt="SR04 Range Finder"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><h2>Step 3</h2></th>
-                        <td><p class="howTo">Nano IoT connects to PC via Wi-Fi and sends data to Arduino program</p></td>
-                        <td class="text-center"><img src="img/nano33IoT3.png" alt="Nano 33 IoT"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><h2>Step 4</h2></th>
-                        <td><p class="howTo">Arduino and Flash server communicate via HTTP request protocol</p></td>
-                        <td class="text-center"><img src="img/arduinoLogo.png" alt="Arduino Logo"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><h2>Step 5</h2></th>
-                        <td><p class="howTo">Flask connects to Firebase and sends data for storage.</p></td>
-                        <td class="text-center"><img src="img/firebaseLogo.png" alt="Firebase Logo"></td>
-                    </tr>
-                </tbody>
-            </table>
+          <br> <!-- Line break -->
+          <div class="text-center">
+            <h1 >Procedure</h1>
+            <h2>Using a numbered list, describe your procedure (incude pictures)</h2>
+          </div>
+          
+          <hr><br> <!-- Horizontal line and line break -->
+    
+          <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
+            <thead>
+              <tr class="table-primary">
+                <th><h3>Step</h3></th>
+                <th><h3>Description</h3></th>
+                <th><h3>Image</h3></th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr class="align-middle">
+                <th scope="row" class="table-secondary">
+                  <h3>1</h3>
+                </th> <!-- scope="row" specifies header cell is the header for a row -->
+                <td>
+                  <h3>Start Python Flask server</h3>
+                </td>
+                <td class="text-center"><img src="img/pythonlogo.png" alt="Python Logo"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row" class="table-secondary">
+                  <h3>2</h3>
+                </th>
+                <td>
+                  <h3>Power circuit on. SR-04/05 transmits data to Nano IOT</h3>
+                </td>
+                <td class="text-center"><img src="img/rangefindertp.png" alt="SRO4 Range Finder"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row" class="table-secondary">
+                  <h3>3</h3>
+                </th>
+                <td>
+                  <h3>Nano IoT connects to PC via Wi-Fi and sends data to Arduino program.</h3>
+                </td>
+                <td class="text-center"><img src="img/nano33iot3.png" alt="Nano 33 IoT"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row" class="table-secondary">
+                  <h3>4</h3>
+                </th>
+                <td>
+                  <h3>Arduino and Flask server communicate via HTTP request protocol.</h3>
+                </td>
+                <td class="text-center"><img src="img/arduinologo.png" alt="Arduino Logo"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row" class="table-secondary">
+                  <h3>5</h3>
+                </th>
+                <td>
+                  <h3>Flask connects to Firebase and sends data for storage.</h3>
+                </td>
+                <td class="text-center"><img src="img/firebaselogo.png" alt="Firebase"></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-    </section>
+      </section>
     <!-- Footer (requires Boostrap icons CSS)-->
     <footer class="p-5 footer text-light text-center position-relative">
         <div class="container">
-            <p class="lead">Copyright &copy; SE 2023 Bootstrap Demo</p>
+            <p class="lead">Copyright &copy; SE 2023 Derek Wang Research</p>
             <a href="#" class="position-absolute bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle h2 icon-white"></i>
             </a>
