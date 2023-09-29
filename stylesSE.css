@@ -6,15 +6,19 @@
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    color:#9274c7;
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #f8dff7;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #8c5cdf;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -26,7 +30,7 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #8c5cdf;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -36,7 +40,7 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #f8dff7;
 }
 
 .ovPadLeft{
@@ -48,12 +52,16 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #f8dff7;
     padding: 1px;
 }
 
+.procedure-img{
+    height: 200px;
+}
+
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #e2b0fc; 
 }
 
 /* ----------------- ID CSS ----------------- */
