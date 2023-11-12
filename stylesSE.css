@@ -5,6 +5,10 @@
     margin: auto;
 }
 
+.back{
+    background-color: #f2d8ff; 
+}
+
 body {
     overflow-x: hidden;
 }
@@ -39,10 +43,6 @@ body {
     padding-left: 20px;
 }
 
-.graph{
-    padding-bottom: 20px;
-}
-
 .ovPadRight{  
     padding-right: 20px;
 }
@@ -55,11 +55,17 @@ body {
     height: 200px;
 }
 
-.back{
-    background-color: #f2d8ff; 
-}
-
 /* ----------------- ID CSS ----------------- */
+#chart-wrapper{
+    margin: auto;
+    padding: 10px; 
+    height: 80vh;
+    width:  80vw;
+    min-height: 400px;
+    background-color: whitesmoke !important;
+    justify-content: center;
+    align-items: center;  
+}
 
 /* -----------------Underline Animation CSS -----------------*/
 .hover-underline-animation {

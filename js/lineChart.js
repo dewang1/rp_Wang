@@ -1,7 +1,8 @@
 // Create a scatter plot
 // Fetch data from CSV file
 async function getData() {
-    const response = await fetch('../data/mean-inhibition-zones.csv');
+    // const response = await fetch('../data/mean-inhibition-zones.csv');    // data directory for local dev (LiveServer)
+    const response = await fetch('/data/mean-inhibition-zones.csv');    // data directory for GitHub pages
     const data = await response.text();
     
     // Array to store individual data points
@@ -69,6 +70,7 @@ async function createChart() {
         options: {
             showLine: true,
             responsive: true,    // Resize based on screen size
+            maintainAspectRatio: false,
             scales: {            // Display options for x & y axes
                 x:{
                     title:{
