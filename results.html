@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous">defer </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="js/lineChart.js" defer></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
@@ -44,7 +46,16 @@
             </div>
         </div>
     </nav>
-
+    <section class="back">
+        <div class="container">
+            <br>
+            <h1 class="text-center text-dark">Results</h1>
+            <hr><br> <!-- <hr> is horizontal line before line break -->
+        </div>
+        <div class="container graph">
+            <canvas id="myChart"></canvas>
+        </div>
+    </section>
     <!-- Footer (requires Boostrap icons CSS)-->
     <footer class="p-5 footer text-light text-center position-relative">
         <div class="container">

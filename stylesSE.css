@@ -5,14 +5,6 @@
     margin: auto;
 }
 
-.about-team{
-    color:#9274c7;
-}
-
-.authors{
-    background-color: #f8dff7;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -39,12 +31,16 @@ body {
     margin-right: 10px;
 }
 
-.overview{
-    background-color: #f8dff7;
+.showcase{
+    background-color: rgb(185, 124, 255);
 }
 
 .ovPadLeft{
     padding-left: 20px;
+}
+
+.graph{
+    padding-bottom: 20px;
 }
 
 .ovPadRight{  
@@ -52,7 +48,6 @@ body {
 }
 
 .procedure{
-    background-color: #f8dff7;
     padding: 1px;
 }
 
@@ -60,8 +55,8 @@ body {
     height: 200px;
 }
 
-.showcase{
-    background-color: #e2b0fc; 
+.back{
+    background-color: #f2d8ff; 
 }
 
 /* ----------------- ID CSS ----------------- */
